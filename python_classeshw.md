@@ -54,7 +54,9 @@ Explain what the following variables refer to, and their scope:
 8. `person.email`
 
 
-Problem 2 : Stock Portfolio Class.
+### Part 2 
+
+Stock Portfolio Class.
 
 For each company, store the name, ticker
 symbol, purchase date, purchase price, and number of shares. Methods include: add
