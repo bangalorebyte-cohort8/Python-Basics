@@ -1,0 +1,6 @@
+Name: Virat Kohli
+Sport: Cricketer
+Born: 05-11-1988
+Birth Place: Delhi
+Height : 5.9
+Role: Batsman
