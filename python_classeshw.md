@@ -1,6 +1,5 @@
 ## Python Classes
 
-Submit the following by Thursday, January 26th, 2017 at 6:10pm. 
 
 ### Part 1 
 
@@ -55,7 +54,9 @@ Explain what the following variables refer to, and their scope:
 8. `person.email`
 
 
-Problem 2 : Stock Portfolio Class.
+### Part 2 
+
+Stock Portfolio Class.
 
 For each company, store the name, ticker
 symbol, purchase date, purchase price, and number of shares. Methods include: add
