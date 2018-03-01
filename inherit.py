@@ -1,7 +1,5 @@
 class Base:
-
 	def __init__(self):
-		
 		print('Base __init__')
 		self.cname = 'Base'
 
@@ -12,38 +10,40 @@ class Base:
 class A(Base):
 
 	def __init__(self):
-		
-		super().__init__()
 		print('A __init__')
+		super().__init__()
 		self.cname ='A'
 
-	def func(self):
-		print('A func')
+	#def func(self):
+	#	print('A func')
 
 
 class B(Base):
 
 	def __init__(self):
-		
-		super().__init__()
 		print('B __init__')
+		super().__init__()
 		self.cname = 'B'
 
-	def func(self):
-		print('B func')
+	#def func(self):
+	#	print('B func')
 
 
-class C(A,B):
+class C(B,A):
 
 	def __init__(self):
-		self.cname = 'C'
+		print('C __init__')
+		
 		super().__init__()
-		#self.cname = 'C'
-
+		self.cname = 'C'
+		
 	#def func(self):
 	#	print('C func')
 
 
 c = C()
+#print(c.cname)
 c.func()
-print(c.cname)
+print(C.__mro__)
+
+
